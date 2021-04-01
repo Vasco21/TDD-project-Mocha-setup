@@ -1,10 +1,10 @@
 describe('The yearsAgo function', function(){
 
-    it('year and return how many years ago that year is from the current year.', function(){
+    it('should return 21 which is the diffYears between the current year 2000.', function(){
         assert.equal(21, yearsAgo(2000));
     });
 
-    it('year and return how many years ago that year is from the current year.', function(){
+    it('should return 45 which is the diffYears between the current year 1976.', function(){
         assert.equal(45, yearsAgo(1976));
     });
 });

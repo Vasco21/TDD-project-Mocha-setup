@@ -18,10 +18,10 @@ describe('The mostProfitableDepartment function', function(){
     {department: 'carpentry', sales: 16109, day: 'Friday'}
 ];
 
-    it('which of their departments are the most profitable and which day of the week is the most profitable', function(){
+    it('should  return  outdoor as department with most sale of salesData', function(){
         assert.equal("outdoor",mostProfitableDepartment(salesData));
     });
-    it('which of their departments are the most profitable and which day of the week is the most profitable', function(){
+    it('should  return  Thursday as day with most sale of salesData', function(){
         assert.equal('Thursday',mostProfitableDay(salesData));
     });
 
